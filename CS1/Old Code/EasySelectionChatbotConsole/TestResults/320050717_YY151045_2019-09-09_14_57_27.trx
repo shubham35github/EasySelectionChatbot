@@ -1,0 +1,419 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="2218156e-3113-4054-ab22-fb5eb2f42d7d" name="320050717@YY151045 2019-09-09 14:57:27" runUser="CODE1\320050717" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2019-09-09T14:57:27.9651181+05:30" queuing="2019-09-09T14:57:27.9651181+05:30" start="2019-09-09T14:57:23.7125033+05:30" finish="2019-09-09T14:57:28.5728980+05:30" />
+  <TestSettings name="default" id="2782542d-d9a2-4723-9109-f81407717b79">
+    <Deployment runDeploymentRoot="320050717_YY151045_2019-09-09_14_57_27" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="16b14491-35b8-48b9-830a-1b195aa7ce81" testId="29f6c287-6cc6-e7cb-6bf4-c6aa90f9d841" testName="ProcessChatbotFeaturesTest2" computerName="YY151045" duration="00:00:00.0825303" startTime="2019-09-09T14:57:28.1280216+05:30" endTime="2019-09-09T14:57:28.2109772+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="16b14491-35b8-48b9-830a-1b195aa7ce81">
+      <Output>
+        <StdOut>Choose from the following 'MEASURMENT' options:&#xD;
+1: Central Survellience and alarm&#xD;
+2: Child Birth Monitoring&#xD;
+3: Cost Effective Monitoring&#xD;
+4: Vitals&#xD;
+5: Vitals and ECG&#xD;
+6: Display Filtered Items
+7: Start Again
+8: Exit the Application
+
+Do you want 'TOUCHSCREEN' ?&#xD;
+1: false&#xD;
+2: true&#xD;
+3: Display Filtered Items
+4: Start Again
+5: Back To Previous Question
+6: Exit the Application
+
+Choose from the following 'CATEGORY' options:&#xD;
+1: Bedside&#xD;
+2: EWS&#xD;
+3: MM cum PM&#xD;
+4: Spot Check PM&#xD;
+5: Telemetry&#xD;
+6: Display Filtered Items
+7: Start Again
+8: Back To Previous Question
+9: Exit the Application
+
+Choose from the following 'PORTABLITY_1' options:&#xD;
+1: Non-Portable&#xD;
+2: Portable&#xD;
+3: Wearable&#xD;
+4: Display Filtered Items
+5: Start Again
+6: Back To Previous Question
+7: Exit the Application
+
+Choose from the following 'SIZE_1' options:&#xD;
+1: Large(12-15)&#xD;
+2: Medium(10-12)&#xD;
+3: Small(8-10)&#xD;
+4: Display Filtered Items
+5: Start Again
+6: Back To Previous Question
+7: Exit the Application
+
+Choose from the following 'FEATURE_3' options:&#xD;
+1: ACS&#xD;
+2: Integrated PC&#xD;
+3: Display Filtered Items
+4: Start Again
+5: Back To Previous Question
+6: Exit the Application
+&#xD;
+-------------------------------------------------------------------------------&#xD;
+Here are some Items Suggestions for you : 
+&#xD;
+Intellivue MX800&#xD;
+-------------------------------------------------------------------------------&#xD;
+&#xD;
+
+---------------------------------!!!!! Thank you for your Interaction, Hope I was able to assist you here. !!!!!----------
+      ---------------------------------------!!!!! HAVE A NICE DAY VISIT AGAIN !!!!!---------------------------------</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4d324b71-cba9-4dee-92c5-cdf853a0ba84" testId="d52fd79b-db7b-9510-d8a8-2fe731d0ab30" testName="SelectItemsTest2" computerName="YY151045" duration="00:00:00.0037417" startTime="2019-09-09T14:57:28.4668781+05:30" endTime="2019-09-09T14:57:28.4708752+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4d324b71-cba9-4dee-92c5-cdf853a0ba84" />
+    <UnitTestResult executionId="177b6560-fafd-4fe1-87c6-151aab4ac413" testId="2d85b701-b5fa-ad41-50bb-d4e90d670f15" testName="ProcessChatbotFeaturesTest5_Back" computerName="YY151045" duration="00:00:00.0724491" startTime="2019-09-09T14:57:28.3129184+05:30" endTime="2019-09-09T14:57:28.3859088+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="177b6560-fafd-4fe1-87c6-151aab4ac413">
+      <Output>
+        <StdOut>Choose from the following 'MEASURMENT' options:&#xD;
+1: Central Survellience and alarm&#xD;
+2: Child Birth Monitoring&#xD;
+3: Cost Effective Monitoring&#xD;
+4: Vitals&#xD;
+5: Vitals and ECG&#xD;
+6: Display Filtered Items
+7: Start Again
+8: Exit the Application
+
+Do you want 'TOUCHSCREEN' ?&#xD;
+1: false&#xD;
+2: true&#xD;
+3: Display Filtered Items
+4: Start Again
+5: Back To Previous Question
+6: Exit the Application
+
+Choose from the following 'CATEGORY' options:&#xD;
+1: Bedside&#xD;
+2: EWS&#xD;
+3: MM cum PM&#xD;
+4: Spot Check PM&#xD;
+5: Telemetry&#xD;
+6: Display Filtered Items
+7: Start Again
+8: Back To Previous Question
+9: Exit the Application
+
+Do you want 'TOUCHSCREEN' ?&#xD;
+1: false&#xD;
+2: true&#xD;
+3: Display Filtered Items
+4: Start Again
+5: Back To Previous Question
+6: Exit the Application
+
+Do you want 'INVASIVE_BP' ?&#xD;
+1: false&#xD;
+2: true&#xD;
+3: Display Filtered Items
+4: Start Again
+5: Back To Previous Question
+6: Exit the Application
+&#xD;
+-------------------------------------------------------------------------------&#xD;
+Here are some Items Suggestions for you : 
+&#xD;
+Suresight VM4&#xD;
+-------------------------------------------------------------------------------&#xD;
+&#xD;
+
+---------------------------------!!!!! Thank you for your Interaction, Hope I was able to assist you here. !!!!!----------
+      ---------------------------------------!!!!! HAVE A NICE DAY VISIT AGAIN !!!!!---------------------------------</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="58a7acc7-3a3d-477f-9034-5963a3a54f43" testId="73534908-8b51-63ea-314a-04d8a73cf58f" testName="ProcessChatbotFeaturesTest1" computerName="YY151045" duration="00:00:01.0766684" startTime="2019-09-09T14:57:27.0506553+05:30" endTime="2019-09-09T14:57:28.1280216+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="58a7acc7-3a3d-477f-9034-5963a3a54f43">
+      <Output>
+        <StdOut>Choose from the following 'MEASURMENT' options:&#xD;
+1: Central Survellience and alarm&#xD;
+2: Child Birth Monitoring&#xD;
+3: Cost Effective Monitoring&#xD;
+4: Vitals&#xD;
+5: Vitals and ECG&#xD;
+6: Display Filtered Items
+7: Start Again
+8: Exit the Application
+
+Do you want 'TOUCHSCREEN' ?&#xD;
+1: false&#xD;
+2: true&#xD;
+3: Display Filtered Items
+4: Start Again
+5: Back To Previous Question
+6: Exit the Application
+
+Choose from the following 'CATEGORY' options:&#xD;
+1: Bedside&#xD;
+2: EWS&#xD;
+3: MM cum PM&#xD;
+4: Spot Check PM&#xD;
+5: Telemetry&#xD;
+6: Display Filtered Items
+7: Start Again
+8: Back To Previous Question
+9: Exit the Application
+&#xD;
+-------------------------------------------------------------------------------&#xD;
+Here are some Items Suggestions for you : 
+&#xD;
+Intellivue MP5T&#xD;
+-------------------------------------------------------------------------------&#xD;
+&#xD;
+
+---------------------------------!!!!! Thank you for your Interaction, Hope I was able to assist you here. !!!!!----------
+      ---------------------------------------!!!!! HAVE A NICE DAY VISIT AGAIN !!!!!---------------------------------</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a47ab8a1-ad88-4be6-b2b2-0d30c92921b5" testId="3158b43f-8578-67f7-c7d6-8ed52461e293" testName="ReadProductAttributesTest1" computerName="YY151045" duration="00:00:00.6483736" startTime="2019-09-09T14:57:25.9322810+05:30" endTime="2019-09-09T14:57:27.0376628+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a47ab8a1-ad88-4be6-b2b2-0d30c92921b5" />
+    <UnitTestResult executionId="37290c56-1a73-4f4e-a225-95dd92449e9e" testId="89b20a49-2ee8-3fe0-a85e-d848e5bb5d55" testName="ProcessChatbotFeaturesTest6_Back2" computerName="YY151045" duration="00:00:00.0419231" startTime="2019-09-09T14:57:28.3859088+05:30" endTime="2019-09-09T14:57:28.4278868+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="37290c56-1a73-4f4e-a225-95dd92449e9e">
+      <Output>
+        <StdOut>Choose from the following 'MEASURMENT' options:&#xD;
+1: Central Survellience and alarm&#xD;
+2: Child Birth Monitoring&#xD;
+3: Cost Effective Monitoring&#xD;
+4: Vitals&#xD;
+5: Vitals and ECG&#xD;
+6: Display Filtered Items
+7: Start Again
+8: Exit the Application
+
+Do you want 'TOUCHSCREEN' ?&#xD;
+1: false&#xD;
+2: true&#xD;
+3: Display Filtered Items
+4: Start Again
+5: Back To Previous Question
+6: Exit the Application
+
+Choose from the following 'CATEGORY' options:&#xD;
+1: Bedside&#xD;
+2: EWS&#xD;
+3: MM cum PM&#xD;
+4: Spot Check PM&#xD;
+5: Telemetry&#xD;
+6: Display Filtered Items
+7: Start Again
+8: Back To Previous Question
+9: Exit the Application
+
+Do you want 'TOUCHSCREEN' ?&#xD;
+1: false&#xD;
+2: true&#xD;
+3: Display Filtered Items
+4: Start Again
+5: Back To Previous Question
+6: Exit the Application
+Choose from the following 'MEASURMENT' options:&#xD;
+1: Central Survellience and alarm&#xD;
+2: Child Birth Monitoring&#xD;
+3: Cost Effective Monitoring&#xD;
+4: Vitals&#xD;
+5: Vitals and ECG&#xD;
+6: Display Filtered Items
+7: Start Again
+8: Exit the Application
+&#xD;
+-------------------------------------------------------------------------------&#xD;
+Here are some Items Suggestions for you : 
+&#xD;
+Efficia CMS200&#xD;
+-------------------------------------------------------------------------------&#xD;
+&#xD;
+
+---------------------------------!!!!! Thank you for your Interaction, Hope I was able to assist you here. !!!!!----------
+      ---------------------------------------!!!!! HAVE A NICE DAY VISIT AGAIN !!!!!---------------------------------</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9270b484-2fe2-4e7b-8c0b-d144bf450b6c" testId="dcc8dab4-7382-9c7b-690d-4a56f9b042a9" testName="ProcessChatbotFeaturesTest7_start" computerName="YY151045" duration="00:00:00.0373981" startTime="2019-09-09T14:57:28.4278868+05:30" endTime="2019-09-09T14:57:28.4658651+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9270b484-2fe2-4e7b-8c0b-d144bf450b6c">
+      <Output>
+        <StdOut>Choose from the following 'MEASURMENT' options:&#xD;
+1: Central Survellience and alarm&#xD;
+2: Child Birth Monitoring&#xD;
+3: Cost Effective Monitoring&#xD;
+4: Vitals&#xD;
+5: Vitals and ECG&#xD;
+6: Display Filtered Items
+7: Start Again
+8: Exit the Application
+
+Do you want 'TOUCHSCREEN' ?&#xD;
+1: false&#xD;
+2: true&#xD;
+3: Display Filtered Items
+4: Start Again
+5: Back To Previous Question
+6: Exit the Application
+
+Choose from the following 'CATEGORY' options:&#xD;
+1: Bedside&#xD;
+2: EWS&#xD;
+3: MM cum PM&#xD;
+4: Spot Check PM&#xD;
+5: Telemetry&#xD;
+6: Display Filtered Items
+7: Start Again
+8: Back To Previous Question
+9: Exit the Application
+Choose from the following 'MEASURMENT' options:&#xD;
+1: Central Survellience and alarm&#xD;
+2: Child Birth Monitoring&#xD;
+3: Cost Effective Monitoring&#xD;
+4: Vitals&#xD;
+5: Vitals and ECG&#xD;
+6: Display Filtered Items
+7: Start Again
+8: Exit the Application
+&#xD;
+-------------------------------------------------------------------------------&#xD;
+Here are some Items Suggestions for you : 
+&#xD;
+Efficia CMS200&#xD;
+-------------------------------------------------------------------------------&#xD;
+&#xD;
+
+---------------------------------!!!!! Thank you for your Interaction, Hope I was able to assist you here. !!!!!----------
+      ---------------------------------------!!!!! HAVE A NICE DAY VISIT AGAIN !!!!!---------------------------------</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="be0b730a-c954-4335-882c-d55082f58015" testId="3d2b90a2-8e8c-572b-95fa-7befbea51e28" testName="ProcessChatbotFeaturesTest4" computerName="YY151045" duration="00:00:00.0405232" startTime="2019-09-09T14:57:28.2719546+05:30" endTime="2019-09-09T14:57:28.3129184+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="be0b730a-c954-4335-882c-d55082f58015">
+      <Output>
+        <StdOut>Choose from the following 'MEASURMENT' options:&#xD;
+1: Central Survellience and alarm&#xD;
+2: Child Birth Monitoring&#xD;
+3: Cost Effective Monitoring&#xD;
+4: Vitals&#xD;
+5: Vitals and ECG&#xD;
+6: Display Filtered Items
+7: Start Again
+8: Exit the Application
+
+Do you want 'NBP_MEASURMENT' ?&#xD;
+1: false&#xD;
+2: true&#xD;
+3: Display Filtered Items
+4: Start Again
+5: Back To Previous Question
+6: Exit the Application
+
+Choose from the following 'SPEED' options:&#xD;
+1: Fast&#xD;
+2: Slow&#xD;
+3: Display Filtered Items
+4: Start Again
+5: Back To Previous Question
+6: Exit the Application
+&#xD;
+-------------------------------------------------------------------------------&#xD;
+Here are some Items Suggestions for you : 
+&#xD;
+Suresight VS3&#xD;
+-------------------------------------------------------------------------------&#xD;
+&#xD;
+
+---------------------------------!!!!! Thank you for your Interaction, Hope I was able to assist you here. !!!!!----------
+      ---------------------------------------!!!!! HAVE A NICE DAY VISIT AGAIN !!!!!---------------------------------</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5d4f0eec-b86e-4a05-a982-20a1650bda0a" testId="7fd9bedd-a6bf-a150-60a7-314c096abaec" testName="SelectItemsTest3" computerName="YY151045" duration="00:00:00.0018474" startTime="2019-09-09T14:57:28.4738601+05:30" endTime="2019-09-09T14:57:28.4758593+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5d4f0eec-b86e-4a05-a982-20a1650bda0a" />
+    <UnitTestResult executionId="35aea3a8-70d0-483f-b27d-b415861846c4" testId="95025142-f619-96e9-a07a-5bbdc36f21d2" testName="SelectItemsTest1" computerName="YY151045" duration="00:00:00.0003815" startTime="2019-09-09T14:57:28.4658651+05:30" endTime="2019-09-09T14:57:28.4668781+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="35aea3a8-70d0-483f-b27d-b415861846c4" />
+    <UnitTestResult executionId="08a00b1d-8bd6-4550-8801-9dc1481713a2" testId="32f6dafc-b0df-a1c9-450b-4b9f59974c15" testName="ProcessChatbotFeaturesTest3" computerName="YY151045" duration="00:00:00.0603678" startTime="2019-09-09T14:57:28.2119910+05:30" endTime="2019-09-09T14:57:28.2719546+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="08a00b1d-8bd6-4550-8801-9dc1481713a2">
+      <Output>
+        <StdOut>Choose from the following 'MEASURMENT' options:&#xD;
+1: Central Survellience and alarm&#xD;
+2: Child Birth Monitoring&#xD;
+3: Cost Effective Monitoring&#xD;
+4: Vitals&#xD;
+5: Vitals and ECG&#xD;
+6: Display Filtered Items
+7: Start Again
+8: Exit the Application
+&#xD;
+-------------------------------------------------------------------------------&#xD;
+Here are some Items Suggestions for you : 
+&#xD;
+Efficia CMS200&#xD;
+-------------------------------------------------------------------------------&#xD;
+&#xD;
+
+---------------------------------!!!!! Thank you for your Interaction, Hope I was able to assist you here. !!!!!----------
+      ---------------------------------------!!!!! HAVE A NICE DAY VISIT AGAIN !!!!!---------------------------------</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="ProcessChatbotFeaturesTest3" storage="c:\users\320050717\source\repos\easyselectionchatbot\cs1\old code\easyselectionchatbotconsole\easyselectionchatbotunittest\bin\debug\easyselectionchatbotunittest.dll" id="32f6dafc-b0df-a1c9-450b-4b9f59974c15">
+      <Execution id="08a00b1d-8bd6-4550-8801-9dc1481713a2" />
+      <TestMethod codeBase="C:\Users\320050717\source\repos\EasySelectionChatbot\CS1\Old Code\EasySelectionChatbotConsole\EasySelectionChatbotUnitTest\bin\Debug\EasySelectionChatbotUnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="EasySelectionChatbotUnitTest.UnitTest1" name="ProcessChatbotFeaturesTest3" />
+    </UnitTest>
+    <UnitTest name="ProcessChatbotFeaturesTest6_Back2" storage="c:\users\320050717\source\repos\easyselectionchatbot\cs1\old code\easyselectionchatbotconsole\easyselectionchatbotunittest\bin\debug\easyselectionchatbotunittest.dll" id="89b20a49-2ee8-3fe0-a85e-d848e5bb5d55">
+      <Execution id="37290c56-1a73-4f4e-a225-95dd92449e9e" />
+      <TestMethod codeBase="C:\Users\320050717\source\repos\EasySelectionChatbot\CS1\Old Code\EasySelectionChatbotConsole\EasySelectionChatbotUnitTest\bin\Debug\EasySelectionChatbotUnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="EasySelectionChatbotUnitTest.UnitTest1" name="ProcessChatbotFeaturesTest6_Back2" />
+    </UnitTest>
+    <UnitTest name="ProcessChatbotFeaturesTest7_start" storage="c:\users\320050717\source\repos\easyselectionchatbot\cs1\old code\easyselectionchatbotconsole\easyselectionchatbotunittest\bin\debug\easyselectionchatbotunittest.dll" id="dcc8dab4-7382-9c7b-690d-4a56f9b042a9">
+      <Execution id="9270b484-2fe2-4e7b-8c0b-d144bf450b6c" />
+      <TestMethod codeBase="C:\Users\320050717\source\repos\EasySelectionChatbot\CS1\Old Code\EasySelectionChatbotConsole\EasySelectionChatbotUnitTest\bin\Debug\EasySelectionChatbotUnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="EasySelectionChatbotUnitTest.UnitTest1" name="ProcessChatbotFeaturesTest7_start" />
+    </UnitTest>
+    <UnitTest name="SelectItemsTest3" storage="c:\users\320050717\source\repos\easyselectionchatbot\cs1\old code\easyselectionchatbotconsole\easyselectionchatbotunittest\bin\debug\easyselectionchatbotunittest.dll" id="7fd9bedd-a6bf-a150-60a7-314c096abaec">
+      <Execution id="5d4f0eec-b86e-4a05-a982-20a1650bda0a" />
+      <TestMethod codeBase="C:\Users\320050717\source\repos\EasySelectionChatbot\CS1\Old Code\EasySelectionChatbotConsole\EasySelectionChatbotUnitTest\bin\Debug\EasySelectionChatbotUnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="EasySelectionChatbotUnitTest.UnitTest1" name="SelectItemsTest3" />
+    </UnitTest>
+    <UnitTest name="ReadProductAttributesTest1" storage="c:\users\320050717\source\repos\easyselectionchatbot\cs1\old code\easyselectionchatbotconsole\easyselectionchatbotunittest\bin\debug\easyselectionchatbotunittest.dll" id="3158b43f-8578-67f7-c7d6-8ed52461e293">
+      <Execution id="a47ab8a1-ad88-4be6-b2b2-0d30c92921b5" />
+      <TestMethod codeBase="C:\Users\320050717\source\repos\EasySelectionChatbot\CS1\Old Code\EasySelectionChatbotConsole\EasySelectionChatbotUnitTest\bin\Debug\EasySelectionChatbotUnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="EasySelectionChatbotUnitTest.UnitTest1" name="ReadProductAttributesTest1" />
+    </UnitTest>
+    <UnitTest name="ProcessChatbotFeaturesTest4" storage="c:\users\320050717\source\repos\easyselectionchatbot\cs1\old code\easyselectionchatbotconsole\easyselectionchatbotunittest\bin\debug\easyselectionchatbotunittest.dll" id="3d2b90a2-8e8c-572b-95fa-7befbea51e28">
+      <Execution id="be0b730a-c954-4335-882c-d55082f58015" />
+      <TestMethod codeBase="C:\Users\320050717\source\repos\EasySelectionChatbot\CS1\Old Code\EasySelectionChatbotConsole\EasySelectionChatbotUnitTest\bin\Debug\EasySelectionChatbotUnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="EasySelectionChatbotUnitTest.UnitTest1" name="ProcessChatbotFeaturesTest4" />
+    </UnitTest>
+    <UnitTest name="ProcessChatbotFeaturesTest1" storage="c:\users\320050717\source\repos\easyselectionchatbot\cs1\old code\easyselectionchatbotconsole\easyselectionchatbotunittest\bin\debug\easyselectionchatbotunittest.dll" id="73534908-8b51-63ea-314a-04d8a73cf58f">
+      <Execution id="58a7acc7-3a3d-477f-9034-5963a3a54f43" />
+      <TestMethod codeBase="C:\Users\320050717\source\repos\EasySelectionChatbot\CS1\Old Code\EasySelectionChatbotConsole\EasySelectionChatbotUnitTest\bin\Debug\EasySelectionChatbotUnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="EasySelectionChatbotUnitTest.UnitTest1" name="ProcessChatbotFeaturesTest1" />
+    </UnitTest>
+    <UnitTest name="SelectItemsTest2" storage="c:\users\320050717\source\repos\easyselectionchatbot\cs1\old code\easyselectionchatbotconsole\easyselectionchatbotunittest\bin\debug\easyselectionchatbotunittest.dll" id="d52fd79b-db7b-9510-d8a8-2fe731d0ab30">
+      <Execution id="4d324b71-cba9-4dee-92c5-cdf853a0ba84" />
+      <TestMethod codeBase="C:\Users\320050717\source\repos\EasySelectionChatbot\CS1\Old Code\EasySelectionChatbotConsole\EasySelectionChatbotUnitTest\bin\Debug\EasySelectionChatbotUnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="EasySelectionChatbotUnitTest.UnitTest1" name="SelectItemsTest2" />
+    </UnitTest>
+    <UnitTest name="ProcessChatbotFeaturesTest2" storage="c:\users\320050717\source\repos\easyselectionchatbot\cs1\old code\easyselectionchatbotconsole\easyselectionchatbotunittest\bin\debug\easyselectionchatbotunittest.dll" id="29f6c287-6cc6-e7cb-6bf4-c6aa90f9d841">
+      <Execution id="16b14491-35b8-48b9-830a-1b195aa7ce81" />
+      <TestMethod codeBase="C:\Users\320050717\source\repos\EasySelectionChatbot\CS1\Old Code\EasySelectionChatbotConsole\EasySelectionChatbotUnitTest\bin\Debug\EasySelectionChatbotUnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="EasySelectionChatbotUnitTest.UnitTest1" name="ProcessChatbotFeaturesTest2" />
+    </UnitTest>
+    <UnitTest name="ProcessChatbotFeaturesTest5_Back" storage="c:\users\320050717\source\repos\easyselectionchatbot\cs1\old code\easyselectionchatbotconsole\easyselectionchatbotunittest\bin\debug\easyselectionchatbotunittest.dll" id="2d85b701-b5fa-ad41-50bb-d4e90d670f15">
+      <Execution id="177b6560-fafd-4fe1-87c6-151aab4ac413" />
+      <TestMethod codeBase="C:\Users\320050717\source\repos\EasySelectionChatbot\CS1\Old Code\EasySelectionChatbotConsole\EasySelectionChatbotUnitTest\bin\Debug\EasySelectionChatbotUnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="EasySelectionChatbotUnitTest.UnitTest1" name="ProcessChatbotFeaturesTest5_Back" />
+    </UnitTest>
+    <UnitTest name="SelectItemsTest1" storage="c:\users\320050717\source\repos\easyselectionchatbot\cs1\old code\easyselectionchatbotconsole\easyselectionchatbotunittest\bin\debug\easyselectionchatbotunittest.dll" id="95025142-f619-96e9-a07a-5bbdc36f21d2">
+      <Execution id="35aea3a8-70d0-483f-b27d-b415861846c4" />
+      <TestMethod codeBase="C:\Users\320050717\source\repos\EasySelectionChatbot\CS1\Old Code\EasySelectionChatbotConsole\EasySelectionChatbotUnitTest\bin\Debug\EasySelectionChatbotUnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="EasySelectionChatbotUnitTest.UnitTest1" name="SelectItemsTest1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="29f6c287-6cc6-e7cb-6bf4-c6aa90f9d841" executionId="16b14491-35b8-48b9-830a-1b195aa7ce81" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d52fd79b-db7b-9510-d8a8-2fe731d0ab30" executionId="4d324b71-cba9-4dee-92c5-cdf853a0ba84" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2d85b701-b5fa-ad41-50bb-d4e90d670f15" executionId="177b6560-fafd-4fe1-87c6-151aab4ac413" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="73534908-8b51-63ea-314a-04d8a73cf58f" executionId="58a7acc7-3a3d-477f-9034-5963a3a54f43" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3158b43f-8578-67f7-c7d6-8ed52461e293" executionId="a47ab8a1-ad88-4be6-b2b2-0d30c92921b5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="89b20a49-2ee8-3fe0-a85e-d848e5bb5d55" executionId="37290c56-1a73-4f4e-a225-95dd92449e9e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dcc8dab4-7382-9c7b-690d-4a56f9b042a9" executionId="9270b484-2fe2-4e7b-8c0b-d144bf450b6c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3d2b90a2-8e8c-572b-95fa-7befbea51e28" executionId="be0b730a-c954-4335-882c-d55082f58015" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7fd9bedd-a6bf-a150-60a7-314c096abaec" executionId="5d4f0eec-b86e-4a05-a982-20a1650bda0a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="95025142-f619-96e9-a07a-5bbdc36f21d2" executionId="35aea3a8-70d0-483f-b27d-b415861846c4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="32f6dafc-b0df-a1c9-450b-4b9f59974c15" executionId="08a00b1d-8bd6-4550-8801-9dc1481713a2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="11" executed="11" passed="11" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>
