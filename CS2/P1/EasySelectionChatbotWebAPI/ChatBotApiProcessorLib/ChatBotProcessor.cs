@@ -21,6 +21,7 @@ namespace ChatBotApiProcessorLib
             {
                 var FeatureDictionary = dataRef.ReadAttributes();
                 int i = 0;
+                string Question;
                 List<string> Options = new List<string>();
                 Dictionary<int, string> AnswerDictionary = new Dictionary<int, string>();
                 AnswerDictionary.Add(PreviousQuestion, OptionSelected);
@@ -36,7 +37,15 @@ namespace ChatBotApiProcessorLib
                         break;
                     }
                 }
-                return new QuestionOptionModel { Qusetion = FeatureDictionary[i], Options = Options };
+                if (Options.Contains("true") || Options.Contains("false"))
+                {
+                     Question=string.Format("Do you want {0} ?", FeatureDictionary[i].ToUpper());
+                }
+                else
+                {
+                     Question=string.Format("Choose from the following {0} options:", FeatureDictionary[i].ToUpper());
+                }
+                return new QuestionOptionModel { Qusetion = Question, Options = Options };
             }
             catch(Exception ex)
             {
