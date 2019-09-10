@@ -1,12 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="ChatBotDataModel">
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 11.875" name="ChatBotDataModel">
   <DataContextMoniker Name="/ChatBotDataModelDataContext" />
   <nestedChildShapes>
-    <classShape Id="a3a597f2-b26e-4860-9b66-2bd7fa014f44" absoluteBounds="6, 1.5, 2, 4.6554182942708326">
-      <DataClassMoniker Name="/ChatBotDataModelDataContext/ChatbotTable_" />
+    <classShape Id="f973e96b-66bd-47bf-83a7-68ae91e63076" absoluteBounds="0.75, 0.875, 2, 1.3862939453124998">
+      <DataClassMoniker Name="/ChatBotDataModelDataContext/Customer" />
       <nestedChildShapes>
-        <elementListCompartment Id="0d54df5a-0f38-442f-87c0-1942cbebbf03" absoluteBounds="6.015, 1.96, 1.9700000000000002, 4.095418294270833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="6d8b8f7e-5060-4302-998f-28d1839c8fe1" absoluteBounds="0.765, 1.335, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
+    <classShape Id="5e25d8ce-723d-44f0-9837-362b9cf4eb0f" absoluteBounds="0.75, 7, 2, 4.6554182942708318">
+      <DataClassMoniker Name="/ChatBotDataModelDataContext/Monitor" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bbea5c2b-89fe-46c2-baa0-0476f5f68c73" absoluteBounds="0.765, 7.46, 1.9700000000000002, 4.095418294270833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6e9ab862-61dc-4692-bd79-e8b93f233c83" absoluteBounds="3.5, 0.875, 2, 1.3862939453124998">
+      <DataClassMoniker Name="/ChatBotDataModelDataContext/MonitorsPreference" />
+      <nestedChildShapes>
+        <elementListCompartment Id="570e6775-7e55-4cee-84e3-8c392ca01fec" absoluteBounds="3.515, 1.335, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 1.56814697265625); (3.5 : 1.56814697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ChatBotDataModelDataContext/Customer/Customer_MonitorsPreference" />
+      <nodes>
+        <classShapeMoniker Id="f973e96b-66bd-47bf-83a7-68ae91e63076" />
+        <classShapeMoniker Id="6e9ab862-61dc-4692-bd79-e8b93f233c83" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 9.32770914713542); (4.5 : 9.32770914713542); (4.5 : 2.2612939453125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ChatBotDataModelDataContext/Monitor/Monitor_MonitorsPreference" />
+      <nodes>
+        <classShapeMoniker Id="5e25d8ce-723d-44f0-9837-362b9cf4eb0f" />
+        <classShapeMoniker Id="6e9ab862-61dc-4692-bd79-e8b93f233c83" />
+      </nodes>
+    </associationConnector>
   </nestedChildShapes>
 </ordesignerObjectsDiagram>

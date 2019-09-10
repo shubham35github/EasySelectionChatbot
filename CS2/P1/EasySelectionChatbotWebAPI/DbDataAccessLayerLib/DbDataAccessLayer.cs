@@ -17,7 +17,7 @@ namespace DbDataAccessLayerLib
             Dictionary<int, string> FeaturesDictionary = new Dictionary<int, string>();
             using (ChatBotDataModelDataContext dbcontext = new ChatBotDataModelDataContext())
             {
-                var columnnames = from t in typeof(ChatbotTable_).GetProperties() select t.Name;
+                var columnnames = from t in typeof(Monitor).GetProperties() select t.Name;
                 int i = 0;
                 foreach (var c in columnnames)
                 {
@@ -36,13 +36,13 @@ namespace DbDataAccessLayerLib
                 IQueryable optionsQueryable;
                 if (QuestionNumber == 1)
                 {
-                    optionsQueryable = dbcontext.ChatbotTable_s.Where(FeaturesDictionary[QuestionNumber] + "!=\"" + null + "\"").Select(FeaturesDictionary[QuestionNumber]).Distinct();
+                    optionsQueryable = dbcontext.Monitors.Where(FeaturesDictionary[QuestionNumber] + "!=\"" + null + "\"").Select(FeaturesDictionary[QuestionNumber]).Distinct();
 
                 }
                 else
                 {
                     int feature_no = AnswerDictionary.Keys.Max();
-                    optionsQueryable = dbcontext.ChatbotTable_s.Where(FeaturesDictionary[feature_no] + "=\"" + AnswerDictionary[feature_no] + "\"").Where(FeaturesDictionary[QuestionNumber] + "!=\"" + null + "\"").Select(FeaturesDictionary[QuestionNumber]).Distinct();
+                    optionsQueryable = dbcontext.Monitors.Where(FeaturesDictionary[feature_no] + "=\"" + AnswerDictionary[feature_no] + "\"").Where(FeaturesDictionary[QuestionNumber] + "!=\"" + null + "\"").Select(FeaturesDictionary[QuestionNumber]).Distinct();
                 }
                 foreach (var option in optionsQueryable)
                 {

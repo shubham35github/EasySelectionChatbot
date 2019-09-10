@@ -1,7 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ChatbotDB" Class="ChatBotDataModelDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
-  <Table Name="dbo.ChatbotTable$" Member="ChatbotTable_s">
-    <Type Name="ChatbotTable_">
-      <Column Name="monitors_no" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=ChatbotDB;Integrated Security=True" SettingsObjectName="ChatBotModelLib.Properties.Settings" SettingsPropertyName="ChatbotDBConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Customer" Member="Customers">
+    <Type Name="Customer">
+      <Column Name="customer_name" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="customer_email" Type="System.String" DbType="NVarChar(255) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="customer_phone" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Association Name="Customer_MonitorsPreference" Member="MonitorsPreferences" ThisKey="customer_email" OtherKey="customer_email" Type="MonitorsPreference" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Monitors" Member="Monitors">
+    <Type Name="Monitor">
+      <Column Name="monitors_no" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
       <Column Name="measurment" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
       <Column Name="touchscreen" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
       <Column Name="category" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
@@ -21,6 +30,16 @@
       <Column Name="speed" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
       <Column Name="storage_size" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
       <Column Name="monitors_name" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Association Name="Monitor_MonitorsPreference" Member="MonitorsPreferences" ThisKey="monitors_no" OtherKey="monitors_no" Type="MonitorsPreference" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MonitorsPreference" Member="MonitorsPreferences">
+    <Type Name="MonitorsPreference">
+      <Column Name="customer_email" Type="System.String" DbType="NVarChar(255) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="monitors_no" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="check_in" Type="System.DateTime" DbType="DateTime NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="Customer_MonitorsPreference" Member="Customer" ThisKey="customer_email" OtherKey="customer_email" Type="Customer" IsForeignKey="true" />
+      <Association Name="Monitor_MonitorsPreference" Member="Monitor" ThisKey="monitors_no" OtherKey="monitors_no" Type="Monitor" IsForeignKey="true" />
     </Type>
   </Table>
 </Database>

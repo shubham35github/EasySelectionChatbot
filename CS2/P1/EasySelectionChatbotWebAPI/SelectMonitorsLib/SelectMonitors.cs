@@ -45,7 +45,7 @@ namespace SelectMonitorsLib
                 {
                     if (Feature.Equals("FirstFeature") && FeatureValue.Equals("FirstValue"))
                     {
-                        var Selectedtems = dbcontext.ChatbotTable_s.Select("monitors_name");
+                        var Selectedtems = dbcontext.Monitors.Select("monitors_name");
                         foreach (var Item in Selectedtems)
                         {
                             Selectedlist.Add(Item.ToString());
@@ -53,7 +53,7 @@ namespace SelectMonitorsLib
                     }
                     else
                     {
-                        var Selectedtems = dbcontext.ChatbotTable_s.Where(Feature + "=\"" + FeatureValue + "\"").Select("monitors_name");
+                        var Selectedtems = dbcontext.Monitors.Where(Feature + "=\"" + FeatureValue + "\"").Select("monitors_name");
                         foreach (var Item in Selectedtems)
                         {
                             Selectedlist.Add(Item.ToString());
