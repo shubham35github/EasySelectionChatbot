@@ -11,6 +11,6 @@ namespace CustomerModelLib
         public string Name { get; set; }
         public string EmailId { get; set; }
         public string Phone { get; set; }
-        public int MonitorNo { get; set; }
+        public string MonitorName { get; set; }
     }
 }

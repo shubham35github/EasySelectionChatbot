@@ -54,19 +54,42 @@ namespace CustomerMonitorsPreferenceLib
         public void InsertCustomerDetails(CustomerModelLib.Customer customer)
         {
             List<string> CustomerEmails = GetCustomer();
-            if (!IsCustomerExist(customer.EmailId, CustomerEmails))
+            try
             {
-                using (ChatBotDataModelDataContext dbcontext = new ChatBotDataModelDataContext())
+                if (!IsCustomerExist(customer.EmailId, CustomerEmails))
                 {
-                    ChatBotModelLib.Customer customerObj = new ChatBotModelLib.Customer();
-                    customerObj.customer_email = customer.EmailId;
-                    customerObj.customer_name = customer.Name;
-                    customerObj.customer_phone = customer.Phone;
-                    dbcontext.Customers.InsertOnSubmit(customerObj);
-                    dbcontext.SubmitChanges();
+                    using (ChatBotDataModelDataContext dbcontext = new ChatBotDataModelDataContext())
+                    {
+                        ChatBotModelLib.Customer customerObj = new ChatBotModelLib.Customer();
+                        customerObj.customer_email = customer.EmailId;
+                        customerObj.customer_name = customer.Name;
+                        customerObj.customer_phone = customer.Phone;
+                        dbcontext.Customers.InsertOnSubmit(customerObj);
+                        dbcontext.SubmitChanges();
+                    }
                 }
+                int MonitorNo = GetMonitorIdByMonitorName(customer.MonitorName);
+                InsertCustomerPreference(customer.EmailId, MonitorNo);
             }
-            InsertCustomerPreference(customer.EmailId,customer.MonitorNo);
+            catch(Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        private int GetMonitorIdByMonitorName(string monitorName)
+        {
+            using (ChatBotDataModelDataContext dbcontext = new ChatBotDataModelDataContext())
+            {
+                string MonitorNameFeild = "monitors_name";
+                string MonitorNumber=null;
+                var number=dbcontext.Monitors.Where(MonitorNameFeild + "=\"" + monitorName + "\"").Select("monitors_no");
+                foreach (var item in number)
+                {
+                    MonitorNumber=item.ToString();
+                }
+                return int.Parse(MonitorNumber);
+            }
         }
     }
 }

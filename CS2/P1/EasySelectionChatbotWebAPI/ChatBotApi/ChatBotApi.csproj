@@ -169,6 +169,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Controllers\CustomerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ChatBotController.cs" />
     <Compile Include="Global.asax.cs">
@@ -264,6 +265,14 @@
     <ProjectReference Include="..\ChatBotApiProcessorLib\ChatBotApiProcessorLib.csproj">
       <Project>{ef151878-e687-4c09-b5c2-51bfd67778af}</Project>
       <Name>ChatBotApiProcessorLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CustomerModelLib\CustomerModelLib.csproj">
+      <Project>{f8c725a4-3a6b-4fe4-b475-95c8679c9c4f}</Project>
+      <Name>CustomerModelLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CustomerMonitorsPreferenceLib\CustomerMonitorsPreferenceLib.csproj">
+      <Project>{8ddbe843-b45e-47d7-b5cc-47061780f67f}</Project>
+      <Name>CustomerMonitorsPreferenceLib</Name>
     </ProjectReference>
     <ProjectReference Include="..\DataAccessLayerContractLib\DataAccessLayerContractLib.csproj">
       <Project>{edd03270-8872-4878-a128-5bb2c8b0f2e4}</Project>
