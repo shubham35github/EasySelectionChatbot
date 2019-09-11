@@ -117,7 +117,9 @@ namespace CustomerMonitorsPreferenceLib
             }
             catch(Exception ex)
             {
+#pragma warning disable S3445 // Exceptions should not be explicitly rethrown
                 throw ex;
+#pragma warning restore S3445 // Exceptions should not be explicitly rethrown
             }
         }
     }

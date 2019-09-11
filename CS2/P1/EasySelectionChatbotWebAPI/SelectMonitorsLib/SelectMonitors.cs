@@ -13,7 +13,7 @@ namespace SelectMonitorsLib
 {
     public class SelectMonitors : ISelectedItemsContract
     {
-        private IDataAccessLayerContract dataref;
+        private readonly IDataAccessLayerContract dataref;
         public SelectMonitors(IDataAccessLayerContract dataref)
         {
             this.dataref = dataref;
@@ -28,22 +28,15 @@ namespace SelectMonitorsLib
             }
             else
             {
-                try
-                {
-                    Feature = FeatureDictionary[Feature_No];
-                }
-                catch (Exception ex)
-                {
-                    throw ex;
-                }
+                Feature = FeatureDictionary[Feature_No].ToString();
             }
 
             List<string> Selectedlist = new List<string>();
-            if (!Feature.Equals(string.Empty) || !FeatureValue.Equals(string.Empty))
+            if (!string.IsNullOrEmpty(Feature)  || !string.IsNullOrEmpty(FeatureValue))
             {
                 using (ChatBotDataModelDataContext dbcontext = new ChatBotDataModelDataContext())
                 {
-                    if (Feature.Equals("FirstFeature") && FeatureValue.Equals("FirstValue"))
+                    if (Feature=="FirstFeature" && FeatureValue.Equals("FirstValue"))
                     {
                         var Selectedtems = dbcontext.Monitors.Select("monitors_name");
                         foreach (var Item in Selectedtems)
