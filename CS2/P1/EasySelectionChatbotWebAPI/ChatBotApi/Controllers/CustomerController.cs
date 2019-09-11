@@ -19,7 +19,7 @@ namespace ChatBotApi.Controllers
         /// </param>
         /// <remarks>This Post request allows you to save customer details</remarks>
         /// <returns>true on successfull addition of customer </returns>
-    public IHttpActionResult Post([FromBody]Customer customer)
+        public IHttpActionResult Post([FromBody]Customer customer)
         {
             try
             {
