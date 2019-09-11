@@ -9,6 +9,9 @@ using CustomerMonitorsPreferenceLib;
 
 namespace ChatBotApi.Controllers
 {
+    /// <summary>
+    /// Customer controller used for storing the details of customer 
+    /// </summary>
     public class CustomerController : ApiController
     {
         
@@ -19,7 +22,7 @@ namespace ChatBotApi.Controllers
         /// </param>
         /// <remarks>This Post request allows you to save customer details</remarks>
         /// <returns>true on successfull addition of customer </returns>
-    public IHttpActionResult Post([FromBody]Customer customer)
+        public IHttpActionResult Post([FromBody]Customer customer)
         {
             try
             {
@@ -28,12 +31,8 @@ namespace ChatBotApi.Controllers
             }
             catch(Exception ex)
             {
-                return Content(HttpStatusCode.BadRequest, "Content Not Added"+ex.Message);
+                return Content(HttpStatusCode.BadRequest, "Content Not Added" +ex.Message);
             }
         }
-
-       
-
-        
     }
 }

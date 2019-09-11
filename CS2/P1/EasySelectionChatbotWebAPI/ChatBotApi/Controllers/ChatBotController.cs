@@ -11,6 +11,9 @@ using QuestionOptionModelLib;
 
 namespace ChatBotApi.Controllers
 {
+    /// <summary>
+    /// Controller is used to get request from client end and return the questions with option related to the answer given by user
+    /// </summary>
     public class ChatBotController : ApiController
     {
         /// <summary>
@@ -36,7 +39,7 @@ namespace ChatBotApi.Controllers
             }
             catch(Exception ex)
             {
-                return Content(HttpStatusCode.BadRequest, "Parameter entered are incorrect");
+                return Content(HttpStatusCode.BadRequest, "Parameter entered are incorrect" + ex.Message);
             }
             
         }
