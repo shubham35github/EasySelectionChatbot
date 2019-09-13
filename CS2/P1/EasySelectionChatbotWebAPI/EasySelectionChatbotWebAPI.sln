@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.757
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatBotApiProcessorLib", "ChatBotApiProcessorLib\ChatBotApiProcessorLib.csproj", "{4C6FAB6F-8EC1-46B1-8269-6D2C06BA4697}"
 EndProject
@@ -25,10 +25,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerItemsPreferenceCont
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerMonitorsPreferenceLib", "CustomerMonitorsPreferenceLib\CustomerMonitorsPreferenceLib.csproj", "{8DDBE843-B45E-47D7-B5CC-47061780F67F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatBotApi.Tests", "ChatBotApi.Tests\ChatBotApi.Tests.csproj", "{BE47FC48-2795-479F-89C6-8BE7BCECB974}"
+EndProject
 Global
-	GlobalSection(Performance) = preSolution
-		HasPerformanceSessions = true
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -78,11 +77,18 @@ Global
 		{8DDBE843-B45E-47D7-B5CC-47061780F67F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DDBE843-B45E-47D7-B5CC-47061780F67F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DDBE843-B45E-47D7-B5CC-47061780F67F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE47FC48-2795-479F-89C6-8BE7BCECB974}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE47FC48-2795-479F-89C6-8BE7BCECB974}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE47FC48-2795-479F-89C6-8BE7BCECB974}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE47FC48-2795-479F-89C6-8BE7BCECB974}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7961220B-6B27-4A60-98F1-97A2E7F10065}
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
 	EndGlobalSection
 EndGlobal
