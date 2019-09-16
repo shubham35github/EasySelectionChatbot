@@ -5,7 +5,7 @@ echo.
 echo.
 echo --------------------------------------------------------
 
-set SolutionPath=./EasySelectionChatbot.sln
+set SolutionPath=./EasySelectionChatbotConsole.sln
 call %windir%\Microsoft.NET\Framework\v4.0.30319\msbuild.exe /m /nologo %SolutionPath%
 
 echo --------------------------------------------------------

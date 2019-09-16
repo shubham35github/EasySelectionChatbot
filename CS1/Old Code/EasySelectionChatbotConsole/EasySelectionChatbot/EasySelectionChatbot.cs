@@ -11,6 +11,7 @@ namespace EasySelectionChatbot
     public class EasySelectionChatBot:IEasySelectionChatbot,IDataInput
     {
         //Dictionary for storing the Answer of with questions_no
+
         Dictionary<int, string> AnswerDictionary = new Dictionary<int, string>();
         int feature_no = 1;
 
@@ -20,6 +21,7 @@ namespace EasySelectionChatbot
             Dictionary<int, string> FeaturesDictionary = new Dictionary<int, string>();
             using (ChatbotModalDataContext dbcontext = new ChatbotModalDataContext())
             {
+                
                 var columnnames = from t in typeof(ChatbotTable_).GetProperties() select t.Name;
                 int i = 0;
                 foreach (var c in columnnames)
@@ -200,7 +202,7 @@ namespace EasySelectionChatbot
         public List<string> SelectItems(string Feature, string FeatureValue)
         {
             List<string> Selectedlist = new List<string>();
-            if (!Feature.Equals(String.Empty) || !FeatureValue.Equals(String.Empty))
+            if (!Feature.Equals(String.Empty) && !FeatureValue.Equals(String.Empty))
             {
                 using (ChatbotModalDataContext dbcontext = new ChatbotModalDataContext())
                 {

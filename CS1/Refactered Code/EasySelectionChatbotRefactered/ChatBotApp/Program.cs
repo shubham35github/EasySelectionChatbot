@@ -14,7 +14,8 @@ namespace ChatBotApp
         {
             var container = new UnityContainer();
             container.LoadConfiguration();
-            ChatBotProcessorLib.ChatBotProcessor process = container.Resolve<ChatBotProcessorLib.ChatBotProcessor>();
+            ChatBotProcessorLib.ChatBotProcessor process
+                = container.Resolve<ChatBotProcessorLib.ChatBotProcessor>();
             process.ProcessChatBot();
         }
     }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Chatbot.Tests;
 using ChatBotApiProcessorLib;
+using DataAccessLayerContractLib;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using RestSharp;
 
@@ -10,17 +11,6 @@ namespace ChatBotApi.Tests
     [TestClass]
     public class ChatBotControllerTests
     {
-        //[TestMethod]
-        //public void GetMonitorsTestMethod1()
-        //{
-        //    RestClient restClient = new RestClient("http://localhost:51844/Api/ChatBot/GetMonitors/");
-        //    RestRequest restRequest = new RestRequest("2/true", Method.GET);
-        //    IRestResponse restResponse = restClient.Execute(restRequest);
-        //    string response = restResponse.Content;
-        //    Console.WriteLine("Content : \n" + restResponse);
-
-        //}
-
         [TestMethod]
         public void Given_correct_parameters_when_process_invoked_then_nextQuestionOptionModel_expected()
         { 
@@ -40,5 +30,18 @@ namespace ChatBotApi.Tests
             }
 
         }
+
+        [TestMethod]
+        [ExpectedException(typeof(KeyNotFoundException))]
+        public void Given_wrong_parameters_when_process_invoked_null_expected()
+        {
+            ChatBotProcessor chatbot = new ChatBotProcessor(new FakeDataAccessLayerStub());
+            var QuestionOption = chatbot.Process(100, "wrong");
+           
+        }
+       
+            
+        }
+       
     }
-}
+

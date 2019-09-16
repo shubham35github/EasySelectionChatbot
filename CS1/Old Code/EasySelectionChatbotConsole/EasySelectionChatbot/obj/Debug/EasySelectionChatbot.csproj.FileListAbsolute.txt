@@ -11,8 +11,6 @@ C:\Users\320050488\OneDrive - Philips\Case Study\EasySelectionChatbot\CS1\Old Co
 C:\Users\320050488\OneDrive - Philips\Case Study\EasySelectionChatbot\CS1\Old Code\EasySelectionChatbotConsole\EasySelectionChatbot\bin\Debug\EasySelectionChatbot.exe
 C:\Users\320050488\OneDrive - Philips\Case Study\EasySelectionChatbot\CS1\Old Code\EasySelectionChatbotConsole\EasySelectionChatbot\bin\Debug\EasySelectionChatbot.pdb
 C:\Users\320050488\OneDrive - Philips\Case Study\EasySelectionChatbot\CS1\Old Code\EasySelectionChatbotConsole\EasySelectionChatbot\bin\Debug\System.Linq.Dynamic.dll
-C:\Users\320050488\OneDrive - Philips\Case Study\EasySelectionChatbot\CS1\Old Code\EasySelectionChatbotConsole\EasySelectionChatbot\obj\Debug\EasySelectionChatbot.csprojAssemblyReference.cache
-C:\Users\320050488\OneDrive - Philips\Case Study\EasySelectionChatbot\CS1\Old Code\EasySelectionChatbotConsole\EasySelectionChatbot\obj\Debug\EasySelectionChatbot.csproj.CoreCompileInputs.cache
-C:\Users\320050488\OneDrive - Philips\Case Study\EasySelectionChatbot\CS1\Old Code\EasySelectionChatbotConsole\EasySelectionChatbot\obj\Debug\EasySelectionChatbot.csproj.CopyComplete
 C:\Users\320050488\OneDrive - Philips\Case Study\EasySelectionChatbot\CS1\Old Code\EasySelectionChatbotConsole\EasySelectionChatbot\obj\Debug\EasySelectionChatbot.exe
 C:\Users\320050488\OneDrive - Philips\Case Study\EasySelectionChatbot\CS1\Old Code\EasySelectionChatbotConsole\EasySelectionChatbot\obj\Debug\EasySelectionChatbot.pdb
+C:\Users\320050488\OneDrive - Philips\Case Study\EasySelectionChatbot\CS1\Old Code\EasySelectionChatbotConsole\EasySelectionChatbot\obj\Debug\EasySelectionChatbot.csprojResolveAssemblyReference.cache

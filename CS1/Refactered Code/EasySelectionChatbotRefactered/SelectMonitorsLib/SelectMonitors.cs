@@ -39,7 +39,7 @@ namespace SelectMonitorsLib
             }
 
             List<string> Selectedlist = new List<string>();
-            if (!Feature.Equals(string.Empty) || !FeatureValue.Equals(string.Empty))
+            if (!Feature.Equals(string.Empty) && !FeatureValue.Equals(string.Empty))
             {
                 using (ChatBotDataModelDataContext dbcontext = new ChatBotDataModelDataContext())
                 {

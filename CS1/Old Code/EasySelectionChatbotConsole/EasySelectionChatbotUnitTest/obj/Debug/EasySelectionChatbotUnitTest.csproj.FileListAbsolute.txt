@@ -26,11 +26,8 @@ C:\Users\320050488\OneDrive - Philips\Case Study\EasySelectionChatbot\CS1\Old Co
 C:\Users\320050488\OneDrive - Philips\Case Study\EasySelectionChatbot\CS1\Old Code\EasySelectionChatbotConsole\EasySelectionChatbotUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
 C:\Users\320050488\OneDrive - Philips\Case Study\EasySelectionChatbot\CS1\Old Code\EasySelectionChatbotConsole\EasySelectionChatbotUnitTest\bin\Debug\System.Linq.Dynamic.dll
 C:\Users\320050488\OneDrive - Philips\Case Study\EasySelectionChatbot\CS1\Old Code\EasySelectionChatbotConsole\EasySelectionChatbotUnitTest\bin\Debug\EasySelectionChatbot.pdb
-C:\Users\320050488\OneDrive - Philips\Case Study\EasySelectionChatbot\CS1\Old Code\EasySelectionChatbotConsole\EasySelectionChatbotUnitTest\bin\Debug\EasySelectionChatbot.exe.config
 C:\Users\320050488\OneDrive - Philips\Case Study\EasySelectionChatbot\CS1\Old Code\EasySelectionChatbotConsole\EasySelectionChatbotUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 C:\Users\320050488\OneDrive - Philips\Case Study\EasySelectionChatbot\CS1\Old Code\EasySelectionChatbotConsole\EasySelectionChatbotUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
-C:\Users\320050488\OneDrive - Philips\Case Study\EasySelectionChatbot\CS1\Old Code\EasySelectionChatbotConsole\EasySelectionChatbotUnitTest\obj\Debug\EasySelectionChatbotUnitTest.csprojAssemblyReference.cache
-C:\Users\320050488\OneDrive - Philips\Case Study\EasySelectionChatbot\CS1\Old Code\EasySelectionChatbotConsole\EasySelectionChatbotUnitTest\obj\Debug\EasySelectionChatbotUnitTest.csproj.CoreCompileInputs.cache
-C:\Users\320050488\OneDrive - Philips\Case Study\EasySelectionChatbot\CS1\Old Code\EasySelectionChatbotConsole\EasySelectionChatbotUnitTest\obj\Debug\EasySelectionChatbotUnitTest.csproj.CopyComplete
 C:\Users\320050488\OneDrive - Philips\Case Study\EasySelectionChatbot\CS1\Old Code\EasySelectionChatbotConsole\EasySelectionChatbotUnitTest\obj\Debug\EasySelectionChatbotUnitTest.dll
 C:\Users\320050488\OneDrive - Philips\Case Study\EasySelectionChatbot\CS1\Old Code\EasySelectionChatbotConsole\EasySelectionChatbotUnitTest\obj\Debug\EasySelectionChatbotUnitTest.pdb
+C:\Users\320050488\OneDrive - Philips\Case Study\EasySelectionChatbot\CS1\Old Code\EasySelectionChatbotConsole\EasySelectionChatbotUnitTest\obj\Debug\EasySelectionChatbotUnitTest.csprojResolveAssemblyReference.cache
