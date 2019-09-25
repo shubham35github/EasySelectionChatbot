@@ -8,7 +8,8 @@ namespace AlertingUrlsLib
 {
     public class UrlFactory
     {
-        private const string BaseUrl = "http://localhost:62455/";
+        readonly static string port_no = "62455";
+        private readonly string BaseUrl = string.Format("http://localhost:{0}/", UrlFactory.port_no);
         public string Id { get; set; } = null;
         public string BedsUrl
         {

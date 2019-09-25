@@ -691,3 +691,13 @@
 {"Temperature":97.1,"Spo2":83,"PulseRate":117,"TimeStamp":"2019-09-25T15:33:44.2521328+05:30","Id":"B56142"}
 {"Temperature":92.6,"Spo2":48,"PulseRate":182,"TimeStamp":"2019-09-25T15:36:21.9308911+05:30","Id":"B81300"}
 {"Temperature":95.9,"Spo2":62,"PulseRate":36,"TimeStamp":"2019-09-25T15:36:24.6801429+05:30","Id":"B56142"}
+{"Temperature":89.3,"Spo2":95,"PulseRate":174,"TimeStamp":"2019-09-25T17:11:19.0137379+05:30","Id":"B81300"}
+{"Temperature":89.9,"Spo2":40,"PulseRate":126,"TimeStamp":"2019-09-25T17:11:21.5829499+05:30","Id":"B56142"}
+{"Temperature":91.1,"Spo2":37,"PulseRate":64,"TimeStamp":"2019-09-25T17:13:37.4407199+05:30","Id":"B81300"}
+{"Temperature":103.8,"Spo2":8,"PulseRate":202,"TimeStamp":"2019-09-25T17:13:39.286392+05:30","Id":"B56142"}
+{"Temperature":96.0,"Spo2":36,"PulseRate":129,"TimeStamp":"2019-09-25T17:53:02.7885434+05:30","Id":"B81300"}
+{"Temperature":101.4,"Spo2":58,"PulseRate":99,"TimeStamp":"2019-09-25T17:53:05.2527535+05:30","Id":"B56142"}
+{"Temperature":91.3,"Spo2":99,"PulseRate":139,"TimeStamp":"2019-09-25T17:55:32.6294542+05:30","Id":"B81300"}
+{"Temperature":108.3,"Spo2":55,"PulseRate":19,"TimeStamp":"2019-09-25T17:55:34.6371096+05:30","Id":"B56142"}
+{"Temperature":99.6,"Spo2":98,"PulseRate":174,"TimeStamp":"2019-09-25T17:55:42.3511096+05:30","Id":"B56142"}
+{"Temperature":94.7,"Spo2":52,"PulseRate":113,"TimeStamp":"2019-09-25T17:55:43.0225369+05:30","Id":"B56142"}

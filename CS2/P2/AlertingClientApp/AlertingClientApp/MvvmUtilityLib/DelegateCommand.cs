@@ -9,8 +9,6 @@ namespace MvvmUtilityLib
 {
     public class DelegateCommand : ICommand
     {
-
-
         public event EventHandler CanExecuteChanged;
         private readonly Action<Object> _actionMethodAddress;
         private readonly Func<object, bool> _canExceuteMethodAddress;
@@ -19,6 +17,7 @@ namespace MvvmUtilityLib
             this._actionMethodAddress = actionMethodAddress;
             this._canExceuteMethodAddress = canExceuteMethodAddress;
         }
+
 
         public bool CanExecute(object parameter)
         {
