@@ -42,7 +42,7 @@ namespace ConfigurationControlLib.ViewModels
         
         #region Properties
         public string Model { get => _MonitorRef.Model; set => _MonitorRef.Model = value; }
-        public bool IsAssigned { get => _MonitorRef.IsAssigned; set => _MonitorRef.IsAssigned = false; }
+        public bool IsAssigned { get => _MonitorRef.IsAssigned; set => _MonitorRef.IsAssigned = value; }
         public string Id { get => _MonitorRef.Id; set => _MonitorRef.Id = value; }
         public int CountMonitors { get; set; } = 0;
         public bool IsMonitorSelected { get; set; } = false;

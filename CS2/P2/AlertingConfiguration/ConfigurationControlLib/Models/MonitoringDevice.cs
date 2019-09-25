@@ -8,8 +8,10 @@ namespace ConfigurationControlLib.Models
 {
     public class MonitoringDevice
     {
+        #region Property
         public string Model { get; set; }
         public bool IsAssigned { get; set; } = false;
         public string Id { get; set; }
+        #endregion
     }
 }

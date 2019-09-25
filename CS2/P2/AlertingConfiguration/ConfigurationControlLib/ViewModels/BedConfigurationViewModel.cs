@@ -41,7 +41,7 @@ namespace ConfigurationControlLib.ViewModels
 
         #region Properties
         public string Model { get => _BedRef.Model; set => _BedRef.Model = value; }
-        public bool IsAssigned { get => _BedRef.IsAssigned; set => _BedRef.IsAssigned = false; }
+        public bool IsAssigned { get => _BedRef.IsAssigned; set => _BedRef.IsAssigned = value; }
         public string Id { get => _BedRef.Id; set => _BedRef.Id = value; }
         public int CountBeds { get; set; } = 0;
         public bool IsBedSelected { get; set; } = false;

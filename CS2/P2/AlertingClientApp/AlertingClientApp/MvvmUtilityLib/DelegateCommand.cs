@@ -12,8 +12,8 @@ namespace MvvmUtilityLib
 
 
         public event EventHandler CanExecuteChanged;
-        private Action<Object> _actionMethodAddress;
-        private Func<object, bool> _canExceuteMethodAddress;
+        private readonly Action<Object> _actionMethodAddress;
+        private readonly Func<object, bool> _canExceuteMethodAddress;
         public DelegateCommand(Action<object> actionMethodAddress, Func<Object, bool> canExceuteMethodAddress)
         {
             this._actionMethodAddress = actionMethodAddress;

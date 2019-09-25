@@ -87,7 +87,7 @@ namespace DashboardControlLib.ViewModels
         #region Properties
         public string Name { get => _PatientRef.Name; set => _PatientRef.Name = value; }
         public DateTime Dob { get => _PatientRef.Dob; set => _PatientRef.Dob = value; }
-        public bool IsAssigned { get => _PatientRef.IsAssigned; set => _PatientRef.IsAssigned = false; }
+        public bool IsAssigned { get => _PatientRef.IsAssigned; set => _PatientRef.IsAssigned = value; }
         public string Id { get => _PatientRef.Id; set => _PatientRef.Id = value; }
         public bool IsIcuSelected { get; set; }=true;
         public void OnPropertyChange([CallerMemberName]string propertyName = null)

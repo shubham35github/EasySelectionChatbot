@@ -8,8 +8,10 @@ namespace ConfigurationControlLib.Models
 {
     public class BedData
     {
+        #region Property
         public string Model { get; set; }
         public bool IsAssigned { get; set; } = false;
         public string Id { get; set; }
+        #endregion
     }
 }

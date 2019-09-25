@@ -687,3 +687,7 @@
 {"Temperature":109.4,"Spo2":57,"PulseRate":222,"TimeStamp":"2019-09-25T12:50:02.5215148+05:30","Id":"B56142"}
 {"Temperature":91.8,"Spo2":66,"PulseRate":71,"TimeStamp":"2019-09-25T12:50:02.8739475+05:30","Id":"B81300"}
 {"Temperature":98.4,"Spo2":2,"PulseRate":148,"TimeStamp":"2019-09-25T12:50:03.1050902+05:30","Id":"B56142"}
+{"Temperature":97.8,"Spo2":65,"PulseRate":139,"TimeStamp":"2019-09-25T15:33:42.8303309+05:30","Id":"B81300"}
+{"Temperature":97.1,"Spo2":83,"PulseRate":117,"TimeStamp":"2019-09-25T15:33:44.2521328+05:30","Id":"B56142"}
+{"Temperature":92.6,"Spo2":48,"PulseRate":182,"TimeStamp":"2019-09-25T15:36:21.9308911+05:30","Id":"B81300"}
+{"Temperature":95.9,"Spo2":62,"PulseRate":36,"TimeStamp":"2019-09-25T15:36:24.6801429+05:30","Id":"B56142"}
