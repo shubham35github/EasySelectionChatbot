@@ -1,0 +1,8 @@
+{"Model":"double","IsAssigned":true,"Id":"B81300"}
+{"Model":"Double","IsAssigned":false,"Id":"B66321"}
+{"Model":"Double 2","IsAssigned":false,"Id":"B64198"}
+{"Model":"abc","IsAssigned":false,"Id":"B51549"}
+{"Model":"xyz","IsAssigned":false,"Id":"B94829"}
+{"Model":"Bed SIngle","IsAssigned":false,"Id":"B54261"}
+{"Model":"single AC","IsAssigned":true,"Id":"B56142"}
+{"Model":"single","IsAssigned":false,"Id":"B65734"}

@@ -1,0 +1,60 @@
+﻿<UserControl x:Class="PatientControlLib.Views.RegisterNewPatientView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PatientControlLib.Views"
+             xmlns:vm="clr-namespace:PatientControlLib.ViewModels"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.DataContext>
+        <vm:RegisterNewPatientViewModel></vm:RegisterNewPatientViewModel>
+    </UserControl.DataContext>
+    <DockPanel>
+        <Border DockPanel.Dock="Top" BorderThickness="3" BorderBrush="White" Background="LightBlue">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.Children>
+                    <TextBlock Grid.Row="0" Margin="5" TextElement.FontSize="20" Text="Patient Registration"/>
+                </Grid.Children>
+            </Grid>
+        </Border>
+        <Border DockPanel.Dock="Bottom" Background="White">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="150"></ColumnDefinition>
+                    <ColumnDefinition Width="250"></ColumnDefinition>
+                    <ColumnDefinition Width="150"></ColumnDefinition>
+                    <ColumnDefinition Width="250"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100"></RowDefinition>
+                    <RowDefinition Height="100"></RowDefinition>
+                    <RowDefinition Height="40"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.Children>
+                    <TextBlock Grid.Row="0" Grid.Column="0" Margin="26,47,0,19" TextElement.FontSize="18" Text="Patient Name:"/>
+                    <TextBlock Grid.Row="0" Grid.Column="2"  Margin="60,47,0,19" TextElement.FontSize="18" Text="       DOB:"/>
+                    <TextBox Grid.Row="0" Grid.Column="1" Margin="0,42,0,19" BorderBrush="LightBlue" Background="white"  BorderThickness="3" 
+                         x:Name="PNameTextBox"
+                         Text="{Binding Path=Name, Mode=OneWayToSource}">
+                    </TextBox>
+                    <DatePicker Grid.Row="0" Grid.Column="3" Height="35" HorizontalAlignment="Left" Margin="10,47,0,0"  VerticalAlignment="Top" Width="156" TextElement.FontSize="15" BorderBrush="LightBlue" Background="white"  BorderThickness="3"
+                                x:Name="datePicker1"
+                                Text="{Binding Path=Dob, Mode=OneWayToSource}"
+                    />
+                    <Button Grid.Row="1"  Margin="173,29,77,32" TextElement.FontSize="20" Content="Register" Grid.ColumnSpan="2" Grid.Column="1"
+                         x:Name="RegisterButton" 
+                         Command="{Binding AddNewPatientCommand}" Click="RegisterButton_Click">
+                    </Button>
+                    <TextBlock Grid.Row="2"  TextElement.FontSize="10" Grid.ColumnSpan="2" Grid.Column="1" Margin="173,0,77,0" TextElement.Foreground="Green"
+                               x:Name="successTextBlock"
+                               Text="{Binding Path=SuccessMessage, Mode=OneWay,UpdateSourceTrigger=PropertyChanged }" />
+
+                </Grid.Children>
+            </Grid>
+        </Border>
+    </DockPanel>
+</UserControl>

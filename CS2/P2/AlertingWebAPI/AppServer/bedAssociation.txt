@@ -1,0 +1,2 @@
+{"BedId":"B81300","PatientId":"P46379","MonitorId":"M56651","Id":"A71934"}
+{"BedId":"B56142","PatientId":"P99223","MonitorId":"M18263","Id":"A84542"}
