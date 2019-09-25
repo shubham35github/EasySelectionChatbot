@@ -24,5 +24,6 @@ Project exposes API which are as Follows
 Below mentioned are the standards defined for the project
 1. Maximum cyclomatic code complexity of a function - 10
 2. Maximum lines of code of a function - 25
-3. Coverage - 
-4. Duplication - 
+3. Coverage - 75% (since the inclusions of DB related operations which are not covered in the unit testing)
+4. Duplication - 0
+eas
